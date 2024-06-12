@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="./assets/css/start-rating-svg.css" />
+      <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+      <header>
+            <div class="bg-secondary">
+                  <div class="container text-center py-2">
+                        <p class="text-[12px] lg:text-sm text-white">
+                              LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout.
+                              <span class="pl-4">23:00:00</span>
+                        </p>
+                  </div>
+            </div>
+            <div class="py-4 lg:border-b lg:border-neutral-400">
+                  <div class="container">
+                        <div class="flex flex-wrap lg:flex-nowrap justify-between lg:gap-8">
+                              <div class="order-1 flex items-center space-x-4 lg:-ml-9">
+                                    <button class="lg:hidden">
+                                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                          </svg>
+                                    </button>
+                                    <a href="">
+                                          <img srcset="./assets/images/logo.png 2x" alt=""
+                                                class="w-[119px] lg:w-full" />
+                                    </a>
+                              </div>
+                              <form action=""
+                                    class="w-full order-3 lg:order-2 flex gap-2 border-t mt-4 lg:mt-0 border-neutral-400 pt-4 lg:w-auto lg:pt-0 lg:border-0">
+                                    <input type="text"
+                                          class="py-1 pl-6 pr-1 rounded-full bg-white border border-[#F4F4F4] w-full lg:w-[400px]"
+                                          placeholder="Search" />
+                                    <button type="submit" class="bg-primary rounded-full w-[58px] lg:w-12 h-12">
+                                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="size-6 text-white mx-auto">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                          </svg>
+                                    </button>
+                              </form>
+                              <div class="order-2 lg:order-3 flex items-center gap-2 lg:gap-6 lg:-mr-9">
+                                    <a href="" class="text-sm lg:text-base">Your Account</a> |
+                                    <button class="relative">
+                                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                          </svg>
+                                          <span
+                                                class="text-[12px] absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full text-white">1</span>
+                                    </button>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <div class="hidden lg:block">
+                  <div class="container">
+                        <nav>
+                              <ul class="lg:flex items-center justify-center space-x-10 text-[#46494F]">
+                                    <li><a href="" class="block py-4">Shop All</a></li>
+                                    <li><a href="" class="block py-4">Flower</a></li>
+                                    <li><a href="" class="block py-4">Edibles</a></li>
+                                    <li><a href="" class="block py-4">Concentrates</a></li>
+                                    <li><a href="" class="block py-4">Mushrooms</a></li>
+                                    <li><a href="" class="block py-4">Promotions/Bundles</a></li>
+                                    <li><a href="" class="block py-4">Support</a></li>
+                                    <li><a href="" class="block py-4">Rewards</a></li>
+                                    <li><a href="" class="block py-4">Blog</a></li>
+                              </ul>
+                        </nav>
+                  </div>
+            </div>
+      </header>
+      <section class="container mt-10">
+            <div class="flex flex-col lg:flex-row ">
+                  <div class="mr-[95px] lg:w-[45%] w-full">
+                        <img src="./assets/images/productdetail.svg"
+                              class="p-[36px] bg-[#FFF] rounded-3xl border border-solid border-[#F4F4F4]" alt="">
+                        <div class="flex mt-10 items-center justify-center">
+                              <div
+                                    class="bg-[#F4F4F4] mx-5 rounded-sm p-2  hover:border hover:border-solid hover:border-green-600">
+                                    <img class="" src="./assets//images//image 15_prev_ui 1.png" alt="">
+                              </div>
+                              <div
+                                    class="bg-[#F4F4F4] mx-5 rounded-sm p-2  hover:border hover:border-solid hover:border-green-600">
+                                    <img class="" src="./assets//images//image 15_prev_ui 1.png" alt="">
+                              </div>
+                              <div
+                                    class="bg-[#F4F4F4] mx-5 rounded-sm p-2  hover:border hover:border-solid hover:border-green-600">
+                                    <img class="" src="./assets//images//image 15_prev_ui 1.png" alt="">
+                              </div>
+                              <div
+                                    class="bg-[#F4F4F4] mx-5 rounded-sm p-2  hover:border hover:border-solid hover:border-green-600">
+                                    <img class="" src="./assets//images//image 15_prev_ui 1.png" alt="">
+                              </div>
+
+                        </div>
+                  </div>
+                  <div class="mt-10 lg:mt-0 lg:w-[48%] w-full">
+                        <span class="text-[#9D9EA2] font-normal  text-sm">CONCENTRATES</span>
+                        <h3 class="text-3xl font-semibold text-[#060709] mb-8">Mix And Match Shatter/Budder 28g <br>
+                              (4 X 7G)</h3>
+                        <div class="mb-8">
+                              <span class="bg-[#F2F6F4]  p-4 text-[#05422C] text-xs rounded-lg mr-4">Indica</span>
+                              <span class="bg-[#F2F6F4]  p-4 text-[#05422C] text-xs rounded-lg">Sativa 100%</span>
+
+                        </div>
+                        <div class="mb-4 flex justify-between">
+                              <div>
+                                    <del class=" text-[#9D9EA2] text-base  font-medium mr-4">$200</del>
+                                    <span class=" text-[red] text-xl font-medium">$1200</span>
+                              </div>
+                              <div class="flex">
+                                    <span class="flex">
+                                          <div class="mr-2"><img src="./assets/icons/star.svg" alt=""></div>
+                                          <div>4.6/5 </div>
+                                    </span>
+                                    <span class="ml-4">135 Reviews</span>
+                              </div>
+
+                        </div>
+                        <div class="py-5 px-6 border border-solid border-[#F4F4F4] rounded-xl mb-4">
+                              <div class="flex mb-5">
+                                    <div>
+                                          <img src="./assets/icons/colorfilter.svg" class="mr-4" alt="">
+                                    </div>
+                                    <div>
+                                          <p>EFFECTS</p>
+                                          <span>Calming, Creative, Happy, Relaxing, Sleepy, Uplifting</span>
+                                    </div>
+                              </div>
+                              <div class="flex mb-5">
+                                    <div>
+                                          <img src="./assets/icons/colorfilter.svg" class="mr-4" alt="">
+                                    </div>
+                                    <div>
+                                          <p>MAY RELIEVE</p>
+                                          <span>Anxiety, Arthritis, Chronic Pain, Depression, Fatigue, Inflammation,
+                                          </span>
+                                    </div>
+                              </div>
+                              <div class="flex mb-5">
+                                    <div>
+                                          <img src="./assets/icons/colorfilter.svg" class="mr-4" alt="">
+                                    </div>
+                                    <div>
+                                          <p>AROMAS</p>
+                                          <span>Chemical, Citrus, Earthy, Pungent, Sour</span>
+                                    </div>
+                              </div>
+                        </div>
+
+                        <div class="mb-4">
+                              <p class="text-[#717378] text-base font-light">DESCRIPTION</p>
+                              <span class="text-[#46494F] font-medium text-sm">Jungle Diamonds is a slightly indica
+                                    dominant
+                                    hybrid strain (60% indica/40% sativa)
+                                    created through crossing the infamous Slurricane X Gorilla Glue #4 strains.</span>
+                        </div>
+
+                        <div class="flex flex-col gap-6 self-stretch">
+                              <div class="flex gap-6 self-stretch">
+                                    <div class="flex flex-col gap-3 grow">
+                                          <span class="font-light text-[12px] mb-3 text-[#717378]">WEIGHT</span>
+                                          <div class="flex gap-4">
+                                                <div
+                                                      class="h-9 flex justify-center items-center gap-3 bg-[#f3fbf4] px-3.5 pt-1 pb-[5px] rounded border border-solid border-[#17af26]">
+                                                      <span class="font-normal text-[12px] text-[#060709]">28g</span>
+                                                </div>
+                                                <div
+                                                      class="h-9 flex justify-center items-center gap-3 bg-[#f4f4f4] px-3.5 pt-1 pb-[5px] rounded border border-solid border-[#f4f4f4]">
+                                                      <span class="font-normal text-[12px] text-[#060709]">1/2lb</span>
+                                                </div>
+                                                <div
+                                                      class="h-9 flex justify-center items-center gap-3 bg-[#f4f4f4] px-3.5 pt-1 pb-[5px] rounded border border-solid border-[#f4f4f4]">
+                                                      <span class="font-normal text-[12px] text-[#060709]">1/4lb</span>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="flex flex-col gap-3 grow">
+                                          <span class="font-light text-[12px] mb-3 text-[#717378]">Add Integra
+                                                Pack</span>
+                                          <div class="flex gap-8">
+                                                <div
+                                                      class="h-9 flex justify-center items-center gap-2.5 bg-white rounded">
+                                                      <div
+                                                            class="h-[22px] w-[22px] flex flex-col justify-center items-center gap-2 bg-[#17af26] rounded-md">
+                                                            <img src="./assets/icons/Box.svg" />
+                                                      </div>
+                                                      <span class="font-normal text-[14px] text-[#060709]">4g
+                                                            (+$2.00)</span>
+                                                </div>
+                                                <div
+                                                      class="h-9 flex justify-center items-center gap-2.5 bg-white rounded">
+                                                      <div
+                                                            class="h-[22px] w-[22px] flex flex-col justify-center items-center gap-2 bg-white rounded-md border border-solid border-[#f4f4f4]">
+                                                            <svg
+                                                                  class="w-[9.371026039123535px] h-[6.239999771118164px]"></svg>
+                                                      </div>
+                                                      <span class="font-normal text-[14px] text-[#060709]">8g
+                                                            (+$3.00)</span>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div
+                                    class="h-9 flex justify-center items-center gap-3 bg-[#fef8e8] px-3.5 pt-1 pb-[5px] rounded-[100px]">
+                                    <span class="font-normal text-[14px]">Purchase this product now and earn 80
+                                          Points!</span>
+                              </div>
+                        </div>
+                        <div
+                              class="flex flex-col gap-6 self-stretch p-6 rounded-2xl border border-solid border-[#f4f4f4]">
+                              <div class="flex flex-col gap-3 self-stretch">
+                                    <div class="flex justify-between items-center self-stretch">
+                                          <div class="flex items-center gap-4">
+                                                <span class="font-normal text-[14px] text-[#46494f]">Khalifa Kush
+                                                      (AAAA)</span><span
+                                                      class="font-normal text-[14px] text-[#9d9ea2]">2x</span>
+                                          </div>
+                                          <span class="font-normal text-[14px] text-[#060709]">$120.00</span>
+                                    </div>
+                                    <div class="flex justify-between items-center self-stretch">
+                                          <span class="font-normal text-[14px] text-[#46494f]">Add Integra Pack -
+                                                4g</span><span
+                                                class="font-normal text-[14px] text-[#060709]">$2.00</span>
+                                    </div>
+                              </div>
+                              <div
+                                    class="flex justify-between self-stretch py-5 border-t border-b border-solid border-[#f4f4f4]">
+                                    <div
+                                          class="flex items-center gap-4 pl-4 pr-6 pt-2.5 pb-2.5 rounded-[10px] border border-solid border-[#f4f4f4]">
+                                          <div class="flex gap-1">
+                                                <div
+                                                      class="w-9 h-9 flex justify-center items-center gap-3 bg-white rounded">
+                                                      <div class="w-4 h-4"> + </div>
+                                                </div>
+                                                <div
+                                                      class="w-9 h-9 flex justify-center items-center gap-3 bg-[#f4f4f4] rounded border border-solid border-[#f4f4f4]">
+                                                      <span class="font-normal text-[12px] text-[#060709]">2</span>
+                                                </div>
+                                                <div
+                                                      class="w-9 h-9 flex justify-center items-center gap-3 bg-white rounded">
+                                                      <div class="w-4 h-4"> - </div>
+                                                </div>
+                                          </div>
+                                          <span class="font-normal text-[12px] text-[#17af26]">In Stock</span>
+                                    </div>
+                                    <div
+                                          class="h-14 flex justify-center items-center gap-4 bg-[#17af26] hover:bg-green-700 hover:shadow-md px-8 rounded-[100px]">
+                                          <a href="">
+                                                <span class="font-medium text-[16px] text-white mr-2">Add to
+                                                      Cart</span><span
+                                                      class="font-medium text-[16px] text-white">$242.00</span>
+                                          </a>
+                                    </div>
+                              </div>
+                              <div class="flex flex-col gap-3">
+                                    <div class="flex items-center gap-2">
+                                          <div class="w-4 h-4"></div>
+                                          <span class="font-normal text-[14px]">Free Xpress Shipping on orders over
+                                                $149</span>
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                          <div class="w-4 h-4"></div>
+                                          <span class="font-normal text-[14px] text-[#46494f]">Order before 12:00pm for
+                                                same day dispatch</span>
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                          <div class="w-4 h-4"></div>
+                                          <span class="font-normal text-[14px] text-[#46494f]">Support & ordering open 7
+                                                day a week</span>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="flex gap-6 self-stretch pt-6 border-t border-solid border-[#f4f4f4]">
+                              <div class="flex items-center gap-3 grow">
+                                    <span class="font-light text-[12px] text-[#717378]">SKU</span><span
+                                          class="font-light text-[12px] text-[#717378]">:</span><span
+                                          class="font-normal text-[14px] text-[#060709]">N/A</span>
+                              </div>
+                              <div class="flex items-center gap-3 grow">
+                                    <span class="font-light text-[12px] text-[#717378]">Categories</span><span
+                                          class="font-light text-[12px] text-[#717378]">:</span><span
+                                          class="font-normal text-[14px]"> AAAA Weed, Indica</span>
+                              </div>
+                        </div>
+                        <hr class="my-5" />
+                        <div class="flex items-center gap-6 pb-6 border-solid border-[#f4f4f4]">
+                              <li
+                                    class="flex justify-center items-center gap-3 grow h-12 bg-[#f2f6f4] px-5 py-2 rounded-[100px] border border-solid border-[#05422c]">
+                                    <a href="" class="font-medium text-[16px] text-[#05422c]">Description</a>
+                              </li>
+                              <li
+                                    class="flex justify-center items-center gap-2 grow h-12 bg-white px-5 py-2 rounded-[100px] border border-solid border-[#f4f4f4]">
+                                    <a href="" class="font-normal text-[16px] text-[#46494f]">Reviews</a><span
+                                          class="font-normal text-[14px] text-[#9d9ea2]">(350)</span>
+                              </li>
+                              <li
+                                    class="flex justify-center items-center gap-3 grow h-12 bg-white px-5 py-2 rounded-[100px] border border-solid border-[#f4f4f4]">
+                                    <a href="" class="font-normal text-[16px] text-[#46494f]">Refer a Friend</a>
+                              </li>
+                        </div>
+                        <div class="flex flex-col gap-4 self-stretch">
+                              <span class="font-normal text-[14px] text-[#46494f]">Jungle Diamonds is a slightly indica
+                                    dominant hybrid strain (60%
+                                    indica/40% sativa) created through crossing the infamous Slurricane
+                                    X Gorilla Glue #4 strains. Named for its gorgeous appearance and
+                                    breeder, Jungle Diamonds is a favorite of indica and hybrid lovers
+                                    alike thanks to its delicious taste and tingly, arousing high.
+                                    Jungle Diamonds buds have sparkling oversized spade-shaped olive
+                                    green nugs with vivid amber hairs and a thick frosty blanket of
+                                    glittering tiny blue-tinted white crystal trichomes. As you pull
+                                    apart each sticky little nugget, aromas of spicy mocha coffee and
+                                    fruity herbs are released. </span><span
+                                    class="font-normal text-[14px] text-[#46494f]">The flavor is of sweet chocolate with
+                                    hints of fresh ripe berries
+                                    to it, too. The Jungle Diamonds high is just as delicious, with
+                                    happy effects that will boost the spirits and kick negative thoughts
+                                    and moods to the curb. You’ll feel a tingly sense in your body from
+                                    start to finish that serves to remove any aches or pains while
+                                    leaving you pretty aroused at times. This is accompanied by a
+                                    blissfully unfocused heady lift that leaves your head in the clouds
+                                    without causing sedation. With these effects and its pretty high
+                                    17-24% THC level, Jungle Diamonds is ideal for experienced patients
+                                    with chronic pain, cramps or muscle spasms and appetite loss or
+                                    nausea.</span>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <hr class="container m-10" />
+      <section class="container">
+            <h2 class="mb-10 text-[24px] text-[#1a1e26]">Featured Product</h2>
+            <div class="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-8">
+                  <div class="product-item">
+                        <div
+                              class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
+                              <img src="./assets/images/product.png" alt="" />
+                              <span
+                                    class="out-of-stock absolute rounded-full py-5 px-8 text-sm text-white bg-[rgba(26, 30, 38, 0.3)]">Out
+                                    Of Stock</span>
+                        </div>
+                        <div class="product-content text-center py-5">
+                              <a href="" class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                              <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                          7G)</a>
+                              </h3>
+                              <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                              </div>
+                              <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                              <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                              </div>
+                              <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                              </ul>
+                              <a href="" class="btn">Add To Cart</a>
+                        </div>
+                  </div>
+                  <!--End product-item-->
+                  <div>
+                        <div
+                              class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
+                              <img src="./assets/images/product.png" alt="" />
+                        </div>
+                        <div class="product-content text-center py-5">
+                              <a href="" class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                              <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                          7G)</a>
+                              </h3>
+                              <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                              </div>
+                              <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                              <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                              </div>
+                              <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                              </ul>
+                              <a href="" class="btn">Add To Cart</a>
+                        </div>
+                  </div>
+                  <div>
+                        <div
+                              class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
+                              <img src="./assets/images/product.png" alt="" />
+                        </div>
+                        <div class="product-content text-center py-5">
+                              <a href="" class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                              <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                          7G)</a>
+                              </h3>
+                              <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                              </div>
+                              <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                              <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                              </div>
+                              <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                              </ul>
+                              <a href="" class="btn">Add To Cart</a>
+                        </div>
+                  </div>
+                  <div>
+                        <div
+                              class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
+                              <img src="./assets/images/product.png" alt="" />
+                        </div>
+                        <div class="product-content text-center py-5">
+                              <a href="" class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                              <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                          7G)</a>
+                              </h3>
+                              <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                              </div>
+                              <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                              <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                              </div>
+                              <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                              </ul>
+                              <a href="" class="btn">Add To Cart</a>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      </main>
+      <section class="lg:-mb-[100px] relative z-50 mt-10">
+            <div class="container">
+                  <div class="bg-[#05422C] p-8 lg:p-16 rounded-2xl">
+                        <h2
+                              class="text-[32px]/[120%] -tracking-[1.5px] lg:text-[64px]/[110%] lg:-tracking-[4px] text-white font-semibold uppercase">
+                              UNLOCK 20% OFF YOUR <br class="hidden lg:block" />FIRST ORDER
+                        </h2>
+                        <p class="text-xl text-[#C3D2CC] my-10">
+                              Reveal coupon code by entering your email
+                        </p>
+                        <form action="" class="border-t border-[#346654] pt-10 flex items-center space-x-8">
+                              <input type="text" class="w-full border border-[#346654] rounded-full p-4 lg:p-6"
+                                    placeholder="Email Address" />
+                              <button class="btn !h-[72px] min-w-[160px]">Reveal coupon</button>
+                        </form>
+                  </div>
+            </div>
+
+            </div>
+
+            </div>
+
+
+      </section>
+      <footer class="pt-[120px]">
+            <div class="container">
+                  <div class="grid lg:grid-cols-12 gap-8">
+                        <div class="lg:col-span-4">
+                              <img src="./assets/images/Logo-footer.svg" alt="" />
+                              <p class="text-[#9D9EA2] mt-8 font-normal">
+                                    #1 Canadian top rated online dispensary that meets the customers needs
+                                    in every single medical marijuana aspect. The team here at TopShelfBC is
+                                    heavily involved in the Canadian cannabis industry for over 15 years. We
+                                    strive to provide the top quality products, service and care at the
+                                    lowest prices you’ll ever find.
+                              </p>
+                        </div>
+                        <div class="lg:col-span-8">
+                              <div class="mb-4">
+                                    <h2 class="text-xl text-white uppercase mb-5">Quick Link</h2>
+                                    <ul class="columns-2 *:mb-4">
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Track Your Order</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Shop All</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Flower</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Edibles</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Concentrates</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Refunds</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Mushrooms</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Promotions / Bundles</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Support</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Reward</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Blog</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Shipping Faq</a>
+                                          </li>
+                                    </ul>
+                              </div>
+                              <div class="mb-4">
+                                    <h2 class="text-xl text-white uppercase mb-5">CONTACT US</h2>
+                                    <ul>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">info@topshelfbc.cc</a>
+                                          </li>
+                                    </ul>
+                              </div>
+                              <div class="mb-4">
+                                    <h2 class="text-xl text-white uppercase mb-5">More</h2>
+                                    <ul class="columns-2 *:mb-4">
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Canada</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in New
+                                                      Brunswick</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Prince
+                                                      Edward Island</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Northwest
+                                                      Territories</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in
+                                                      Saskatchewan</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in
+                                                      Manitoba</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in
+                                                      Quitebec</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in British
+                                                      Columbia</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Ontario</a>
+                                          </li>
+                                          <li>
+                                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Alberta</a>
+                                          </li>
+                                    </ul>
+                              </div>
+                              <img src="./assets/images/payment.png" alt="" />
+                        </div>
+                  </div>
+                  <div
+                        class="flex flex-col lg:flex-row items-center lg:justify-between border-t border-[#46494F] py-8 mt-8">
+                        <p class="order-2 lg:order-1 text-[#9D9EA2] text-sm">
+                              © 2022 Top Shelf BC. All Rights Reserved.
+                        </p>
+                        <ul class="order-1 lg:order-2 flex items-center space-x-5">
+                              <li><a href="" class="text-[#9D9EA2] text-sm">Out Of Stock</a></li>
+                              <li><a href="" class="text-[#9D9EA2] text-sm">Privacy Policy</a></li>
+                              <li><a href="" class="text-[#9D9EA2] text-sm">Terms & Conditions</a></li>
+                        </ul>
+                  </div>
+            </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="./assets/js/jquery.start-rating.svg.js"></script>
+      <script src="./main.js"></script>
+</body>
+
+</html>
